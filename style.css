@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.cont {
+    font-size: 40px;
+    display: inline;
+    
+    
+    
+}
+
+.clock{
+    color: rgb(32, 73, 59);
+    box-shadow: 73px 38px 5px;
+    text-align: center;
+    margin: 30px 540px;
+    padding: 30px 10px;
+    display: inline-block;
+    font-size: 30px;
+    background-color: rgb(103, 151, 36);
+    font-weight: bolder;
+    border-radius: 30px;
+    
+}
+
+body {
+    background-color: rgb(211, 215, 197);
+    animation: bdy 1s infinite ;
+}
+
+@keyframes bdy {
+    20%{
+        color:red;
+        background-color: beige;
+    }
+    40%{
+        color: green;
+        background-color: darkblue;
+    }
+    60%{
+        color: pink;
+        background-color: darkgray;
+    }
+    80%{
+        color: yellow;
+
+    }
+    100%{
+        color: blue;
+    }
+
+}
+
+.show{
+    margin: 30px 530px;
+    font-size: 20px;
+    padding: 30px 20px;
+    background-color: rgb(197, 36, 36);
+    border-radius: 30px;
+}
+
+.show:hover{
+    color: grey;
+}
